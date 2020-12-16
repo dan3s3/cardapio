@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Voltaire&display=swap" rel="stylesheet">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+            crossorigin="anonymous"></script>
+
+            <script> <!-- This will make the hamburger menu work -->
+            $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>  
+    <title>Restaurante You Yi - Autêntica Cozinha Chinesa</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><div id="nu-logo"></div></a></li>
+                <li class="item" id="m1"><a href="#">História</a></li>
+                <li class="item" id="m2"><a href="#">Cardápio</a></li>
+                <li class="item" id="m3"><a href="#">Meia-Lua</a></li>
+                <li class="item" id="m4"><a href="#">Contato</a></li>
+                <li class="item button"><a href="#" id="lang-pt">PT</a><span>|</span><a href="#" id="lang-en">EN</a><span>|</span><a href="#" id="lang-mand">中文</a></li>
+                <li class="item button secondary" id="m5"><a href="#">Peça Agora!</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero"></div>
+    <!-- MAIN -->
+    <main>
+      <div class="main-spacer"></div>      
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <section class="footer-l1-container">
+            <div class="footer-l1">
+                <h4>Nos Siga nas Redes</h4>
+                <ul class="medias">
+                    <li><a href="#"><img src="./assets/images/insta02.svg"></a></li>
+                    <li><a href="#"><img src="./assets/images/face3.png"></a></li>
+                </ul>
+            </div>
+            <div class="footer-l1">
+                <h4>Restaurante You Yi</h4>
+                <address>
+                    <span>Rua Cândido Silveira, 242 - Auxiliadora<br>
+                        Porto Alegre/RS<br>
+                        <a href="tel:51-3342-3828">(51) 3342-3828</a><br>
+                        <a href="tel:51-99999-9999">(51) 99999-9999</a></span>
+                </address>
+            </div>
+            <div class="footer-l1">
+                <h4>Autêntica Cozinha Chinesa desde 1991</h4>
+                <ul>
+                    <li>Premio Veja 2008</li>
+                    <li>Premio Veja 2006</li>
+                    <li>Premio Veja 2007</li>
+                    <li>Premio Veja 2007</li>
+                    <li>Premio Veja 2007</li>
+                    <li>Premio Veja 2007</li>
+                    <li>Premio Veja 2007</li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-l4-container">
+            <div class="footer-l4">
+                <h4 id="hours">Horário de Funcionamento Tele e Mesas</h4>
+                <span>Seg à Sex: das <time>11:00</time> às <time>14:00</time> e das <time>18:00</time> às <time>23:00</time><br>
+                    Sáb e Dom: das <time>11:00</time> às <time>15:00</time> e das <time>18:00</time> às <time>23:00</time></span>
+            </div>
+        </section>
+        <section class="footer-l2-container">
+            <div class="footer-l2">
+                <span><a href="#">Política e Termos de uso</a></span>
+            </div>
+            <div class="footer-l2" id="copyright">
+                <span>Copyright © 2020 - Todos os direitos reservados</span>
+            </div>
+        </section>
+        <div class="footer-l3">
+            <span>Criado com ❤️ em POA + Shanghai<br>
+                  por<br>
+                  <a href="https://www.linkedin.com/in/danielfloresdacunha/" target="_blank">Daniel Flores</a></span>
+        </div>
+    </footer>
+
+
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
