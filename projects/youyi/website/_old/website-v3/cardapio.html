@@ -1,0 +1,1491 @@
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardápio | Restaurante You Yi - Autêntica Cozinha Chinesa</title>
+    <link rel="stylesheet" href="./css/cardapio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Noto+Serif+SC:wght@200;500;900&family=Source+Code+Pro:wght@200&family=Voltaire&display=swap" rel="stylesheet"> 
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script> 
+            $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- HEADER SECTION -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><div id="nu-logo"></div></a></li>
+                <li class="item" id="m1"><a href="#">História</a></li>
+                <li class="item" id="m2"><a href="#">Cardápio</a></li>
+                <li class="item" id="m3"><a href="#">Meia-Lua</a></li>
+                <li class="item" id="m4"><a href="#">Contato</a></li>
+                <li class="item button"><a href="#" id="lang-pt">PT</a><span class="letter-spacer">|</span><a href="#" id="lang-en">EN</a><span class="letter-spacer">|</span><a href="#" id="lang-mand">中文</a></li>
+                <li class="item button secondary" id="m5"><a href="#">Peça Agora!</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+    </header>
+<!-- MAIN SECTION -->    
+    <main>
+        <div class="hero"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Cardápio ~~~</h1>
+        </div>
+        <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius. In at elit a mi luctus cursus vitae eget augue. Ut libero nulla, facilisis non sem non, pulvinar ultrices sapien. In sodales elit vitae nisl luctus ultricies. Aliquam vestibulum fermentum erat ac pulvinar. Donec gravida dui vel auctor egestas. Cras condimentum nunc justo, id pulvinar nunc sagittis eu.</p>
+    
+        <!-- Category: Especialidades -->
+        <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Especialidades</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal1">Ninho de Passarinho</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal1" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-23-ninho.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de carne, frango, camarão e legumes na cestinha de batata</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal2">Pato Laqueado (Beijing Duck)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-13-pato-laqueado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pato laqueado em fatias, acompanhado de panquecas (10un) e molho missô</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal3">Tofu Bao com Brócolis e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal3" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-49-tofubao-brocolis.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tofu frito com brócolis, bambu, cogumelo shitake e pimentão vermelho ao molho especial</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal4">Bifum Chop Suey com Camarão</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal4" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-61-bifum-camarao.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massinha de arroz salteada com camarões e legumes</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal5">Sholon (10un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal5" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-2-sholon.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Delicada trouxinha de porco e gengibre cozida ao vapor (famoso Xiao Long Bao), especialidade de Shanghai</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal6">Chapéu Chinês</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal6" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-32-chapeu.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne desfiada com legumes diversos (pimentão, cebola e brócolis) coberto por omelete. Acompanha panquecas e molho missô</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal7">Camarão ao Molho Sakê</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal7" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-42-camarao-sake2.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões salteados ao molho sakê</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal8">Porco Desfiado ao Molho de Gengibre e Pimenta</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal8" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-35-porco-gengibrepimenta.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porco à Sichuan, levemente apimentado</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal9">Filé de Linguado ao Molho Agridoce</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal9" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-142-linguado-agridoce.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Filé de Linguado coberto pelo clássico molho agridoce da casa</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal10">Meia Lua (12un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal10" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-1-meia-lua.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Trouxinha de frango e gengibre, especialidade de Shanghai</p>
+                    </li>
+                </ul>
+            </div>        
+        </section>
+    
+        <!-- Category: Vegetariano -->    
+        <div class="cat-image" id="cat-vegetariano"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Vegetariano ~~~</h1>
+        </div>
+        <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+        
+        <!-- Sub-category: Tofu -->
+        <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Tofu</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal11">Tofu Bao com Brócolis e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal11" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-49-tofubao-brocolis.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tofu frito com brócolis, bambu, cogumelo shitake e pimentão vermelho ao molho especial</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal12">Tofu Seco com Nira e Moiaxi</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal12" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-50-tofu-nira.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de tofu seco com Nira (broto de alho) e Moiaxi (broto de feijão)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal13">Tofu Frito com Ting Gan Tsai</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal13" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-51-tofu-tingtsai.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Ting Tsai (ou Qing Cai em chinês) é uma verdura chinesa muito apreciada no inverno (em inglês chama-se green bok choy)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal14">Tofu Bao com Brócolis e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal14" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-49-tofubao-brocolis.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tofu frito com brócolis, bambu, cogumelo shitake e pimentão vermelho ao molho especial</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal15">Ninho de Passarinho</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal15" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-50-tofu-nira.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de carne, frango, camarão e legumes na cestinha de batata</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Sub-category: Legumes -->
+        <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Legumes</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal16">Chop Suey de Legumes</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal16" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-52-chopsuey-legumes.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de legumes diversos ao molho chinês (brócolis, couve-flor, bambu e cenoura)</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal17"> Ting Gan Tsai com Massa Transparente</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal17" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-53-tingtsai-massa.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massa transparente (mung bean noodle) com Ting Tsai (green bok choy), verdura chinesa muito apreciada no inverno</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal18">Couve Chinesa com Frango e Cogumelos</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal18" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-54-couve-frango-cogumelos.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porção leve e low-carb de couve chinesa, frango e cogumelo</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+         <!-- Sub-category: Outros Pratos Vegetarianos -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Outros Pratos Vegetarianos</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal19">Dumpling Vegetable (3un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal19" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-101-dumpling.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Trouxinha de legumes e verduras com tofu seco e cogumelo shitake</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal20">Chapéu Chines Vegetariano</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal20" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Legumes diversos (pimentão, cebola e brócolis) cobertos por omelete. Acompanha panquecas e molho missô</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal21">Bifum Chop Suey Vegetariano</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal21" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massinha de arroz salteada com bambu e legumes</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal22">Macarrão à Shanghai Vegetariano</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal22" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massa salteada com bambu e legumes ao molho chinês</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal23">Macarrão Frito Chop Suey Vegetariano</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal23" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massa frita com bambu e legumes ao molho chinês</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Category: Entradas -->
+        <div class="cat-image" id="cat-entradas"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Entradas ~~~</h1>
+        </div>
+        <section>
+            <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal24">Meia Lua (12un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal24" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-1-meia-lua.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Trouxinha de frango e gengibre, especialidade de Shanghai</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal25">Rolinho Primavera (2un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal25" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-5-rolinho.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Spring rolls de couve-chinesa e carne, servido com molho agridoce da casa</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal26">Sholon (10un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal26" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-2-sholon.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Delicada trouxinha de porco e gengibre cozida ao vapor (famoso Xiao Long Bao), especialidade de Shanghai</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal27">Dumpling Vegetable (3un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal27" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-101-dumpling.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Trouxinha de legumes e verduras com tofu seco e cogumelo shitake</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal28">Dim Sum (4un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal28" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-4-dimsum.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Trouxinha de frango e gengibre com camarão</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal29"> Camarão Empanado (8un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal29" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-3-camarao-empanado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porção de camarões grandes acompanhados de molho agridoce</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal30">Wonton Frito (12un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal30" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-108-wonton-frito-2.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Delicada trouxinha de frango e gengibre. Acompanha molho agridoce</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal31">Pepino Agridoce</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal31" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-6-salada-pepino.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Salada de pepino sweet and sour</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal32">Salada de Hai Tai</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal32" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-106-haitai.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Salada de Hai Tai (alga marinha) ao molho sweet and sour</p>
+                    </li>
+                </ul>
+            </div>
+        </section>  
+    
+         <!-- Sub-category: Sopas -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Sopas</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal33">Sopa de Trovão</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal33" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-7-sopa-trovao.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tiras de frango c/ camarão e legumes no caldo de tomate da casa. Acompanha arroz pipoca</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal34">Sopa de Wonton</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal34" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-8-sopa-wonton.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Famosa sopa de Wonton, especialidade de Shanghai</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal35">Sopa de Vinagre e Pimenta</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal35" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-10-sopa-vinagre.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Sopa à Sichuan, famosa "hot and sour soup". Tiras de carne e tofu, camarão, cogumelo e brotos de bambu</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal36"> Sopa de Frango com Cogumelo e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal36" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Sopa low-calorie de frango com cogumelo e bambu no caldo caseiro da casa</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal37">Sopa de Massa Transparente com Lombinho</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal37" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional sopa de massa transparente (mung bean noodles) no caldo caseiro da casa</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal38">Sopa de Tofu com Cogumelo e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal38" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-11-sopa-tofu-cogumelo.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Sopa low-calorie de tofu com cogumelo e bambu no caldo caseiro da casa</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Category: Carnes -->
+        <div class="cat-image" id="cat-carnes"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Carnes ~~~</h1>
+        </div>
+        </div>
+            <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+         
+         <!-- Sub-category: Porco -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Porco</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal39">Porco Desfiado ao Molho de Gengibre e Pimenta</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal39" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-35-porco-gengibrepimenta.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porco à Sichuan, levemente apimentado</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal40">Porco Agridoce</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal40" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-33-porco-agridoce.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Filé de porco crocante ao molho agridoce da casa</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal41">Porco Imperial</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal41" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-133-porco-imperial.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Filé de porco fatiado ao molho imperial (molho agridoce c/ abacaxi e pimentão vermelho)</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal42">Porco Moido com Massa Transparente ao Molho Apimentado</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal42" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-36-porco-moido-massa.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porco moído com delicada massa transparente (mung been noodles), levmente apimentado</p>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+    
+         <!-- Sub-category: Gado -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Gado</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal43">Carne na Chapa</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal43" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-24-carne-chapa.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne em fatias com alho poró, brócolis e bambu</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal44">Chapéu Chinês</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal44" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-32-chapeu.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne desfiada com legumes diversos (pimentão, cebola e brócolis) coberto por omelete. Acompanha panquecas e molho missô</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal45">Carne com Chop Suey de Legumes</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal45" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-31-carne-chopsuey.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne desfiada com legumes diversos (pimentão, cebola e brócolis) coberto por omelete. Acompanha panquecas e molho missô</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal46">Bife com Cebola ao Molho de Curry</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal46" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-27-bife-curry.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne em fatias com cebola ao molho curry</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal47">Bife Ao Molho de Ostra</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal47" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-27-bife-curry.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne em fatias com brócolis e bambu ao molho de ostra</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal48"> Carne Desfiada com Cebola</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal48" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-29-carne-cebola.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne desfiada com cebola ao molho chinês</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal49">Carne Desfiada com Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal49" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-28-carne-bambu.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Carne desfiada com bambu ao molho chinês</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Category: Aves -->
+        <div class="cat-image" id="cat-aves"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Aves ~~~</h1>
+        </div>
+        <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+        
+         <!-- Sub-category: Pato -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Pato</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal50">Pato Laqueado (Beijing Duck)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal50" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-13-pato-laqueado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pato laqueado em fatias, acompanhado de panquecas (10un) e molho missô</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal51">Pato em Fatias com Brócolis ao Molho Chinês</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal51" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-14-pato-fatias-molhochines.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pato em fatias com brócolis e bambu</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal52">Pato Desfiado com Camarão, Frango e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal52" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-15-pato-desfiado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Saboroso pato desfiado com camarões, frango e bambu ao molho chinês</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal53">Pato em Fatias com Alho Poró ao Molho de Ostras</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal53" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-16-pato-ostra.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pato em fatias ao alho poró marinado e servido no clássico molho de ostras</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+         <!-- Sub-category: Frango -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Frango</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal54">Ninho de Passarinho</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal54" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="https://source.unsplash.com/800x600?duck">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de carne, frango, camarão e legumes na cestinha de batata</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal55">Frango Picado c/ Semente de Girasol Ao Molho de Gengibre</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal55" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-21-frango-girasol.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Frango picado ao molho gong'bao (levemente sweet and sour com um toque de gengibre e pimenta). Prato inspirado na culinária de Sichuan</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal56">Frango Xadrez com Pimentão e Amendoim</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal56" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-17-frango-xadrez-amendoim.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional frango xadrez com pimentão e amendoim</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal57">Frango Xadrez com Pimentão e Caju</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal57" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-18-frango-xadrez-caju.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional frango xadrez com pimentão e caju</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal58">Frango Xadrez com Cogumelos e Brócolis</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal58" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-19-frango-xadrez-cogumelos.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional frango xadrez com cogumelos e brócolis</p>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+    
+        <!-- Category: Do Mar -->
+        <div class="cat-image" id="cat-mar"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Do  Mar ~~~</h1>
+        </div>
+        <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+        
+         <!-- Sub-category: Peixe -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Peixe</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal59">Filé de linguado ao Molho Agridoce</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal59" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">TFilé de linguado coberto pelo clássico molho agridoce da casa</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal60">File de Linguado ao Molho Imperial</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal60" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-142-linguado-imperial.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">À base de molho agridoce, leva um suave toque cítrico e levemente apimentado</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal6">Filé de Linguado ao Molho de Coco e Curry</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal61" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-142-linguado-cococurry2.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Filé de linguado recebe o clássico molho de coco e curry da casa</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal62">File de Linguado ao Molho Apimentado</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal62" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-43-camarao-apimentado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional molho à base de tomate, levemente apimentado</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal63">Peixe Inteiro ao Alho e Oleo</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal63" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pescada amarela inteira e fresca, de textura delicada, recebe um twist crocante ao alho oleo (consultar disponibilidade)</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal64">Peixe Inteiro Agridoce</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal64" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Pescada amarela inteira e fresca, de textura delicada, recebe um twist crocante com molho agridoce da casa (consultar disponibilidade)</p>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+    
+         <!-- Sub-category: Camarão -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Camarão</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal65">Camarão Shangri La</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal65" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="./assets/images/item-144-camarao-shangrila.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões crocantes cobertos com alho, gengibre, pimenta e gergelim</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal66">Camarão Imperial</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal66" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="https://source.unsplash.com/800x600?sheep">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões crocantes ao molho imperial (suave molho agridoce levemente apimentado)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal67">Camarão ao Molho Sakê</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal67" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-42-camarao-sake2.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões salteados ao molho sake</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal68">Camarão ao Molho Apimentado</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal68" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-43-camarao-apimentado.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões salteados ao molho de tomate da casa, levemente apimentado</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal69">Camarão Alho Óleo</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal69" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-44-camarao-alhooleo.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Camarões crocantes no clássico alho e óleo chinês</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal70">Família Feliz com Camarão, Frango, Carne e Legumes</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal70" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-45-familia-feliz.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Mix de carnes e camarão com legumes (brócolis, couve-flor, bambu e cenoura) ao molho chinês</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Category: Massas -->
+        <div class="cat-image" id="cat-massas"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Massas ~~~</h1>
+        </div>
+        <section>
+            <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal71">Macarrão Frito com Camarão</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal71" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-57-macarrao-frito-camarao.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Macarrão frito com camarão e legumes diversos</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal2">Macarrão Frito Chop Suey</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-56-macarrao-frito-chopsuey.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Macarrão frito com carne e legumes diversos</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal72">Macarrão Frito com Frango</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal72" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-58-macarrao-frito-frango.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Macarrão frito com frango e legumes diversos</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal73">Macarrão à Shanghai</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal73" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-59-macarrao-shanghai.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional massa salteada com carne e legumes</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal74">Bifum Chop Suey com Camarão</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal74" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-61-bifum-camarao.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massinha de arroz salteada com camarões e legumes</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal75">Bifum Chop Suey com Carne</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal75" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-60-bifum-carne.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Massinha de arroz salteada com carne e legumes</p>
+                    </li>
+                </ul>
+            </div>       
+        </section>
+    
+         <!-- Sub-category: Acompanhamentos -->
+         <section class="sub-category">
+            <div class="sub-category-container">
+                <div class="sub-category-inner-wrapper">
+                    <h2 class="sub-category-title-mandarin">煲</h2>
+                    <h2 class="sub-category-text">Acompanhamentos</h2>
+                </div>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal76">Risoto Chop Suey</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal76" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-62-risoto-chopsuey.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional risoto da casa com legumes diversos</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal77">Risoto de Camarão</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal77" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-63-risoto-camara.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional risoto da casa com camarões e legumes</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal78">Arroz Branco</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal78" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="https://source.unsplash.com/800x600?duck">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Porção de arroz branco</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Category: Sobremesa -->
+        <div class="cat-image" id="cat-sobremesa"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Sobremesa ~~~</h1>
+        </div>
+        <section>
+            <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal79">Banana Caramelada (4un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal79" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-67-banana-caramelada.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional porção de bananas carameladas</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal80">Maçã Caramelada (4un)</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal80" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="/assets/images/item-68-maca-caramelada.jpg">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tradicional porção de maças carameladas</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal81">Torta de Sorvete</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal81" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Cassata italiana servida em fatia</p>
+                    </li>
+                </ul>
+            </div>      
+        </section>
+    
+        <!-- Category: Cha -->
+        <div class="cat-image" id="cat-cha"></div>
+        <div class="cat-container">
+            <h1 class="cat-head-text">~~~ Chá ~~~</h1>
+        </div>
+        <section>
+            <p class="category-text">Nunc luctus gravida volutpat. Praesent rutrum odio nulla, nec porttitor ante tempus vel. Etiam pharetra est velit, ut luctus orci blandit et. Mauris sodales laoreet mauris hendrerit pellentesque. Aliquam interdum est nec felis congue elementum. Sed aliquet elementum metus sed feugiat. Integer sit amet odio tincidunt neque viverra ultricies. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur quis mauris eget varius.</p>
+            <div class="item-row">
+                <ul class="item-inner-wrapper">
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal82">Tofu Bao com Brócolis e Bambu</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal82" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="https://source.unsplash.com/800x600?duck">
+                            </div>    
+                        </div>
+                        <p class="item-desc">Tofu frito com brócolis, bambu, cogumelo shitake e pimentão vermelho ao molho especial</p>
+                    </li>
+                    <li class="menu-item">
+                        <h3 class="item-title-mandarin">豆腐煲</h3>                    
+                        <button class="modal-button" href="#myModal2">Ninho de Passarinho</button></h3>
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <img class="modal-img" src="https://source.unsplash.com/800x600?sheep">
+                            </div>
+                        </div>
+                        <p class="item-desc">Mix de carne, frango, camarão e legumes na cestinha de batata</p>
+                    </li>
+                </ul>
+            </div>        
+        </section>
+    </main>
+    
+<!-- FOOTER SECTION -->
+<footer>
+    <section class="footer-l1-container">
+        <div class="footer-l1">
+            <h4>Nos Siga nas Redes</h4>
+            <ul class="medias">
+                <li><a href="#"><img src="./assets/images/insta02.svg"></a></li>
+                <li><a href="#"><img src="./assets/images/face3.png"></a></li>
+            </ul>
+        </div>
+        <div class="footer-l1">
+            <h4>Restaurante You Yi</h4>
+            <address>
+                <span>Rua Cândido Silveira, 242 - Auxiliadora<br>
+                    Porto Alegre/RS<br>
+                    <a href="tel:51-3342-3828">(51) 3342-3828</a><br>
+                    <a href="tel:51-99999-9999">(51) 99999-9999</a></span>
+            </address>
+        </div>
+        <div class="footer-l1">
+            <h4>Autêntica Cozinha Chinesa desde 1991</h4>
+            <ul>
+                <li>Premio Veja 2008</li>
+                <li>Premio Veja 2006</li>
+                <li>Premio Veja 2007</li>
+                <li>Premio Veja 2007</li>
+                <li>Premio Veja 2007</li>
+                <li>Premio Veja 2007</li>
+                <li>Premio Veja 2007</li>
+            </ul>
+        </div>
+    </section>
+    <section class="footer-l4-container">
+        <div class="footer-l4">
+            <h4 id="hours">Horário de Funcionamento Tele e Mesas</h4>
+            <span>Seg à Sex: das <time>11:00</time> às <time>14:00</time> e das <time>18:00</time> às <time>23:00</time><br>
+                Sáb e Dom: das <time>11:00</time> às <time>15:00</time> e das <time>18:00</time> às <time>23:00</time></span>
+        </div>
+    </section>
+    <section class="footer-l2-container">
+        <div class="footer-l2">
+            <span><a href="#">Política e Termos de uso</a></span>
+        </div>
+        <div class="footer-l2" id="copyright">
+            <span>Copyright © 2020 - Todos os direitos reservados</span>
+        </div>
+    </section>
+    <div class="footer-l3">
+        <span>Criado com ❤️ em POA + Shanghai<br>
+              por<br>
+              <a href="https://www.linkedin.com/in/danielfloresdacunha/" target="_blank">Daniel Flores</a></span>
+    </div>
+</footer>
+
+
+
+
+
+<!-- FOOTER SECTION -->
+        <div class="footer"></div>
+
+<script src="./scripts/scripts.js"></script>
+    </body>
+</html>
